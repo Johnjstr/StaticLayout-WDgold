@@ -1,0 +1,246 @@
+body {
+    background-image: url(https://www.hulu.com/static/hitch/s3/2020-06/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg?t.h4WwAhD1rrl9t1M_SYrNCgeYS_ON48);
+     text-align: center; 
+}
+h1 {
+    vertical-align: middle;
+    font-size: 48px;
+    line-height: 56px;
+    font-size: 300;
+    min-height: auto;
+    text-align: center;
+}
+
+.description {
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 16px;
+    font-weight: 600;
+    width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-family: 'graphic', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.description_second {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 20px;
+    font-weight: normal;
+    width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trial {
+    background-color: rgba(255,255,255, 0.8);
+    display: inline-block;
+    transform: translateY(0);
+    transition: box-shadow 0.2s ease, transform 0.1s ease;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #040504;
+    background: #fff;
+    height: 46px;
+    min-width: 136px;
+    padding: 0 32px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.legal {
+    align-self: center;
+    margin-top: 16px;
+    color: #fff;
+    opacity: 0.6;
+    width: 536px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ribbon {
+    padding: 34px 40px;
+    z-index: 1;
+    width: 100%;
+    background: linear-gradient(318.68deg,#0F495C 0%,#0D3640 49.72%,#08141F 100%);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+}
+
+.row {
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1520px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+}
+
+.pics {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+}
+
+.ribbon_info {
+    padding-left: 30px;
+    text-align: left;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding-right: .5rem;
+    flex-basis: 50%;
+    max-width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+}
+
+.ribbon_details {
+    margin-top: 5px;
+    box-sizing: inherit;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+}
+
+.ribbon_shows {
+    display: inline;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    box-sizing: inherit;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.ribbon_learn {
+    display: block;
+    padding: 5px;
+    box-sizing: inherit;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+}
+
+.ribbon_button {
+    padding-top: 20px;
+    align-items: flex-end;
+    display: flex;
+    -webkit-box-align: center;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    flex-basis: 16.66667%;
+    max-width: 16.66667%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+}
+
+.ribbon_button_item {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    display: block;
+    padding: 0px 20px;
+    min-width: 114px;
+    font-size: 14px;
+    transform: translateY(0);
+    transition: box-shadow 0.2s ease,transform 0.1s ease;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 46px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0;
+    box-sizing: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.terms {
+    box-sizing: inherit;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+}
+
+.wrapper {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: inherit;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+}
