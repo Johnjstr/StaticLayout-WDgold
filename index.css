@@ -2,13 +2,43 @@ body {
     background-image: url(https://www.hulu.com/static/hitch/s3/2020-06/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg?t.h4WwAhD1rrl9t1M_SYrNCgeYS_ON48);
      text-align: center; 
 }
-h1 {
-    vertical-align: middle;
-    font-size: 48px;
-    line-height: 56px;
-    font-size: 300;
-    min-height: auto;
+
+.log {
+    color: #c8c8c8;
+    padding: 12px 0 12px;
+    font-weight: 300;
+    font-size: 16px;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    background: none;
+    letter-spacing: 1px;
+    margin: 4px 0px;
+    border: none;
+    display: block;
+    border-radius: 0;
+}
+
+.try {
+    color: #c8c8c8;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+#hulu {
+margin-top: 59vh;
+width: 25%;
 }
 
 .description {
@@ -20,7 +50,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     color: #fff;
-    font-family: 'graphic', Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
@@ -38,6 +68,29 @@ h1 {
 }
 
 .trial {
+    background-color: rgba(255,255,255, 0.8);
+    display: inline-block;
+    transform: translateY(0);
+    transition: box-shadow 0.2s ease, transform 0.1s ease;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #040504;
+    background: #fff;
+    height: 46px;
+    min-width: 136px;
+    padding: 0 32px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trial_2 {
     background-color: rgba(255,255,255, 0.8);
     display: inline-block;
     transform: translateY(0);
@@ -78,14 +131,13 @@ h1 {
 .ribbon {
     padding: 34px 40px;
     z-index: 1;
+    height: 20vh;
     width: 100%;
     background: linear-gradient(318.68deg,#0F495C 0%,#0D3640 49.72%,#08141F 100%);
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #292b2c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .row {
@@ -123,21 +175,15 @@ h1 {
     color: #292b2c;
 }
 
-.ribbon_info {
-    padding-left: 30px;
+.savings {
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
     text-align: left;
-    box-sizing: border-box;
-    -webkit-box-flex: 0;
-    flex-grow: 0;
-    flex-shrink: 0;
-    padding-right: .5rem;
-    flex-basis: 50%;
-    max-width: 50%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #292b2c;
 }
 
 .ribbon_details {
@@ -174,7 +220,7 @@ h1 {
     color: #292b2c;
 }
 
-.ribbon_button {
+ .ribbon_button {
     padding-top: 20px;
     align-items: flex-end;
     display: flex;
@@ -197,8 +243,32 @@ h1 {
     line-height: 1.5;
     color: #292b2c;
 }
-
+/* 
 .ribbon_button_item {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    display: block;
+    padding: 0px 20px;
+    min-width: 114px;
+    font-size: 14px;
+    transform: translateY(0);
+    transition: box-shadow 0.2s ease,transform 0.1s ease;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 46px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0;
+    box-sizing: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}  */
+
+#bundle {
     background: transparent;
     border: 2px solid #fff;
     color: #fff;
@@ -222,7 +292,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.terms {
+ .terms {
     box-sizing: inherit;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -230,7 +300,7 @@ h1 {
     font-weight: 400;
     line-height: 1.5;
     color: #292b2c;
-}
+} 
 
 .wrapper {
     max-width: 1600px;
@@ -243,4 +313,9 @@ h1 {
     font-weight: 400;
     line-height: 1.5;
     color: #292b2c;
+} 
+
+.static {
+    height: 87vh;
+    width: 160vh;
 }
